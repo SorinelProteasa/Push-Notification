@@ -1,24 +1,33 @@
-# Push-Notification mit .NET MAUI, Xamarin & Firebase Cloud Mrssaging (FCM)
+# Push Notifications with .NET MAUI, Xamarin & Firebase Cloud Messaging (FCM)
 
-Ein vollständiges Beispielprojekt zur Implementierung von Push-Benachrichtigungen mit **Firebase Cloud Messaging (FCM)** in:
-
+A complete sample project demonstrating how to implement push notifications using Firebase Cloud Messaging (FCM) with:
 - .NET MAUI (Android)
 - Xamarin.Forms (Android)
-- .NET Konsolen-App als Server (Firebase Admin SDK)
+- .NET Console App as backend server (Firebase Admin SDK)
 
-Dieses Repository zeigt den kompletten **End-to-End Workflow** vom Client bis zum Server: 
-Token generieren → Server registrieren → Push-Nachricht senden → App empfängt Notification.
-Perfekt als Referenzimplementierung
-  
+This repository shows the full end-to-end workflow from client to server:
+Generate token → Register on server → Send push → App receives notification
+Perfect as a reference implementation, starter template, or learning project.
+
 # Features
 
-- Firebase Cloud Messaging Integration  
-- Token-Generierung auf dem Gerät  
-- Empfang von Push-Nachrichten  
-- Versand von Nachrichten über .NET Server  
-- Android Konfiguration (Manifest, Permissions, Channels)  
-- Beispiel für .NET MAUI  
-- Beispiel für Xamarin.Forms  
+- Firebase Cloud Messaging (FCM) integration
+- Device token generation
+- Push notification reception on Android
+- Sending notifications via .NET backend server
+- Android configuration (Manifest, permissions, notification channels)
+- .NET MAUI example app
+- Xamarin.Forms example app
+
+# Tech Stack
+Client
+- .NET MAUI
+- Xamarin.Forms
+- Firebase Messaging SDK (Android)
+
+Server
+- .NET Console Application
 - Firebase Admin SDK (C#)
 
-
+Services
+- Firebase Cloud Messaging (FCM)
