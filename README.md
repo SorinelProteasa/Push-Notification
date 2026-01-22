@@ -20,6 +20,7 @@ Perfect as a reference implementation, starter template, or learning project.
 - Xamarin.Forms example app
 
 # Tech Stack
+
 Client
 - .NET MAUI
 - Xamarin.Forms
